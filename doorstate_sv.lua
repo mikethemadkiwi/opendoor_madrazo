@@ -1,22 +1,20 @@
-lockState = {}
 allowedtouse = {
-"steam:110000104b88dd8"
+"license:f06fe6e7c685e3c2c26f369094238b4dfd75615f" -- we move to licenses since some vanilla server don't use steam! go figure!!
 }
 --
-RegisterServerEvent('OD:updateState')
-AddEventHandler('OD:updateState', function(doorID, state)
-    --
-        local steam 
+RegisterServerEvent('ODLFB:updateState')
+AddEventHandler('ODLFB:updateState', function(doorID, state)
+        local license 
         ids = GetPlayerIdentifiers(source)
         for i,theIdentifier in ipairs(ids) do
-            if string.find(theIdentifier,"steam:") or -1 > -1 then
-                steam = theIdentifier
+            if string.find(theIdentifier,"license:") or -1 > -1 then
+                license = theIdentifier
             end
         end
-        if steam ~= nil then
+        if license ~= nil then
             local canuse = false
             for i=1, #allowedtouse do
-                if allowedtouse[i] == steam then
+                if allowedtouse[i] == license then
                     canuse = true
                 end
             end
