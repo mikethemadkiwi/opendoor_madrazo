@@ -1,6 +1,6 @@
 # opendoor_madrazo
 A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Servers  
-  
+( COMPLETE REWRITE )    
 #### Commands  
 */add_key TargetId TargetRank*  
 >adds player "TargetID" as permission "TargetRank" to the keys list  
