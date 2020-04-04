@@ -1,11 +1,22 @@
 # opendoor_madrazo
-an interior and door fix for the la fuerte blance interior for fivem servers  
-i left this fairly vanilla so server devs can alter it to work with esx if they choose  
-( as most of the structure is a cobble of that code anyways.)  
+A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Servers  
   
-USAGE::  
-edit the steam id's of people you want to trust into the list.
-( or replace that code with esx job roles )  
-start opendoor_madrazo in your server.cfg  
+#### Commands  
+*/add_key TargetId TargetRank*  
+>adds player "TargetID" as permission "TargetRank" to the keys list  
   
-Shouts to AusDOJ. the FiveM server this was made for!
+*/del_key TargetId*  
+>removes player "TargetID" from the keys list  
+  
+*/reload_keys*  
+>Force reloads the keys from file. 
+
+###### Note: Commands can ONLY be run from the Rcon.  
+  
+#### USAGE::  
+1. place the folder into "resources"  
+2. put "ensure opendoor_madrazo" in the server.cfg below your dependancies.  
+3. restart your server.  
+  
+###### Note: delete ALL other mods that alter "La Fuente Blanca Ranch" mapfiles.    
+Shouts to AusDOJ. the FiveM server this was made for!  
