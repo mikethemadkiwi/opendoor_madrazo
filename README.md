@@ -1,7 +1,7 @@
 # opendoor_madrazo
 A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Servers  
 ( COMPLETE REWRITE )    
-#### Commands  
+### Commands  
 */add_key TargetId TargetRank*  
 >adds player "TargetID" as permission "TargetRank" to the keys list  
   
@@ -13,12 +13,16 @@ A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Serve
 
 ###### Note: Commands can ONLY be run from the Rcon.  
   
-#### USAGE::  
+### USAGE  
 1. place the folder into "resources"  
 2. put "ensure opendoor_madrazo" in the server.cfg below your dependancies.  
 3. restart your server.  
 4. Right Click your mouse on doors you wish to Lock/Unlock  
 5. Smile Massively.
+
+### Video  
+PLACEHOLDER VIDEO - NOT RECORDED YET!!  
+[Youtube Video - La Fuente Blanca](https://www.youtube.com/watch?v=vCPlRKtXYo4)  
   
 ###### Note: delete ALL other mods that alter "La Fuente Blanca Ranch" mapfiles.    
 Shouts to AusDOJ. the FiveM server this was made for!  
