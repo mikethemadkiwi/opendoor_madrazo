@@ -22,7 +22,7 @@ A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Serve
 
 ### Video  
 PLACEHOLDER VIDEO - NOT RECORDED YET!!  
-[Youtube Video - La Fuente Blanca](https://www.youtube.com/watch?v=vCPlRKtXYo4)  
+[Youtube Video - La Fuente Blanca](https://www.youtube.com/watch?v=QNyRdL9qnAs)  
   
 ###### Note: delete ALL other mods that alter "La Fuente Blanca Ranch" mapfiles.    
 Shouts to AusDOJ. the FiveM server this was made for!  
