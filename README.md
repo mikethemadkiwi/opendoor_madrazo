@@ -15,10 +15,11 @@ A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Serve
   
 ### USAGE  
 1. place the folder into "resources"  
-2. put "ensure opendoor_madrazo" in the server.cfg below your dependancies.  
-3. restart your server.  
-4. Right Click your mouse on doors you wish to Lock/Unlock  
-5. Smile Massively.
+2. put "ensure opendoor_madrazo" in the server.cfg below your dependancies.
+3. put "add_ace resource.opendoor_madrazo command allow" in your server config as well.  
+4. restart your server.  
+5. Right Click your mouse on doors you wish to Lock/Unlock  
+6. Smile Massively.
 
 ### Video  
 PLACEHOLDER VIDEO - NOT RECORDED YET!!  
