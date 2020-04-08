@@ -1,4 +1,7 @@
-# opendoor_madrazo
+# opendoor_madrazo  
+[![Developer](https://img.shields.io/badge/Developer-WiPAFiveM-BADA55)](https://whatisprojectawesome.com)
+[![Version](https://img.shields.io/github/v/release/mikethemadkiwi/opendoor_madrazo)](https://github.com/mikethemadkiwi/opendoor_madrazo)
+  
 A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Servers  
 ( COMPLETE REWRITE )    
 ### Commands  
