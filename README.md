@@ -12,10 +12,10 @@ enjoy!
 2. FiveM Server and Client Scripts to control all doors related to the La Fuente Blanca Ranch.  
   
 ### Commands  
-*/add_key TargetId TargetRank*  
+*/add_lfbkey TargetId TargetRank*  
 >adds player "TargetID" as permission "TargetRank" to the keys list  
   
-*/del_key TargetId*  
+*/del_lfbkey TargetId*  
 >removes player "TargetID" from the keys list  
   
 */reload_keys*  
