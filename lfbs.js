@@ -112,7 +112,8 @@ RegisterCommand('add_key', function(source, args, rawCommand){
             let pID = Number(args[0]);
             if(args[1]!=null){
                 let pRank = Number(args[1]);
-                _lfb.addDoorKey(PlayerIds[pID].license, pRank, PlayerIds[pID])
+                let tarIds = new PlayerIdentifier(Number(args[0]))
+                _lfb.addDoorKey(tarIds.license, pRank, tarIds)
                 emitNet('LFB:Denied', pID, 'La Fuente Blanca Keys Added');
             }
             else{
@@ -132,7 +133,8 @@ RegisterCommand('del_key', function(source, args, rawCommand){
     if (source < 1){
         if(args[0]!=null){
             let pID = Number(args[0]);
-            _lfb.removeDoorKey(PlayerIds[pID].license);
+            let tarIds = new PlayerIdentifier(Number(args[0]))
+            _lfb.removeDoorKey(tarIds.license);
             emitNet('LFB:Denied', pID, 'La Fuente Blanca Keys Removed');
         }
         else{
