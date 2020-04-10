@@ -13,10 +13,12 @@ enjoy!
   
 ### Commands  
 */add_lfbkey TargetId TargetRank*  
->adds player "TargetID" as permission "TargetRank" to the keys list  
-  
+>adds player "TargetID" as permission "TargetRank"(0-2) to the keys list  
+example ( /add_lfbkey 1 2 )   
+
 */del_lfbkey TargetId*  
 >removes player "TargetID" from the keys list  
+example ( /del_lfbkey 1 )  
   
 */reload_keys*  
 >Force reloads the keys from file. 
