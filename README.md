@@ -1,6 +1,5 @@
 # opendoor_madrazo  
-[![Developer](https://img.shields.io/badge/Developer-WiPAFiveM-BADA55)](https://whatisprojectawesome.com)
-[![Developer](https://img.shields.io/github/repo-size/mikethemadkiwi/opendoor_madrazo)](https://github.com/mikethemadkiwi/opendoor_madrazo/releases)  
+[![Developer](https://img.shields.io/badge/Developer-WiPAFiveM-BADA55)](https://whatisprojectawesome.com)  
 
 A Map / Interior / Door Lock System for "La Fuente Blanca Ranch" for FiveM Servers  
 This script is a rewrite of a mod i wrote a while back for use in mafia roleplay.  
