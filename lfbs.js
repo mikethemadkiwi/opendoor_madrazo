@@ -105,7 +105,7 @@ RegisterCommand('reload_keys', function(source, args, rawCommand){
         emitNet('LFB:Denied', source, 'This command must be run from rcon.')
     }
 }, false)
-RegisterCommand('add_key', function(source, args, rawCommand){
+RegisterCommand('add_lfbkey', function(source, args, rawCommand){
     let _lfb = new LaFuenteBlanca;
     if (source < 1){
         if(args[0]!=null){
@@ -128,7 +128,7 @@ RegisterCommand('add_key', function(source, args, rawCommand){
         emitNet('LFB:Denied', source, 'This command must be run from rcon.')
     }
 }, false)
-RegisterCommand('del_key', function(source, args, rawCommand){
+RegisterCommand('del_lfbkey', function(source, args, rawCommand){
     let _lfb = new LaFuenteBlanca;
     if (source < 1){
         if(args[0]!=null){
